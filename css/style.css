@@ -361,3 +361,14 @@ a {
       .sticky-wrapper .shrink {
         padding-top: 30px !important;
         padding-bottom: 30px !important; } }
+
+
+
+
+
+
+/* custom media query */
+@media only screen and (max-width: 600px) {
+  
+}
+
