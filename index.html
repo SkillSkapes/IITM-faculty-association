@@ -7,23 +7,29 @@
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     
     <!-- Style -->
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
     <script
     src="https://code.jquery.com/jquery-3.6.3.js"
     integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
@@ -85,7 +91,7 @@
             <div class="site-logo">
              
               <a href="index.html">
-                <img src="images/logo/logo-updated.png" class="main-logo">
+                <img src="assets/images/logo/logo-updated.png" class="main-logo">
               </a>
             </div>
 
@@ -131,8 +137,8 @@
 <!-- nav bar end  -->
 
 <!-- Video -section -->
-<section class="fullsize-video-bg">
-	<div class="inner">
+<section class="fullsize-video-bg" id="hm-hero">
+	<div class="inner" data-aos="zoom-out" data-aos-delay="100">
 		<div>
 			<h1 class="homepage-video-headline">Welcome to IIT Madras</h1>
       <p class="homepage-video-content">Your journey starts here in the 620-acre, biodiverse campus a space that enables you to shape your dreams, connect with the best, and soar to success.<br><br>
@@ -159,19 +165,22 @@
 
 <section class="faculty-association-content">
   <div class="container">
-    <div class="row">
-      <h3 class="home-hello-heading">Hello, fellow faculty,</h3>
+    <div class="hm-first-header" data-aos="fade-up">
+      <div class="row">
+        <h3 class="home-hello-heading">Hello, fellow faculty,</h3>
+      </div>
+      <div class="row">
+        <p class="home-hello-content">The purpose of FA is to provide a formal networking platform for faculty members to foster their personal and professional growth. The FA will serve as the voice to represent and advocate for its members, uphold academic freedom, fairness, transparency and equality for all members. FA will increase the awareness of issues specific to the faculty community.</p>
+      </div>
     </div>
-    <div class="row">
-      <p class="home-hello-content">The purpose of FA is to provide a formal networking platform for faculty members to foster their personal and professional growth. The FA will serve as the voice to represent and advocate for its members, uphold academic freedom, fairness, transparency and equality for all members. FA will increase the awareness of issues specific to the faculty community.</p>
-    </div>
+    
     <div class="row" style="padding: 20px 0px 20px 0px;">
-      <div class="col-md-6" >
-        <div class="homepage-video-left">
-          <img src="images/NJVasa 1.png" class="homepage-video-img">
+      <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+        <div class="homepage-video-left" >
+          <img src="assets/images/NJVasa 1.png" class="homepage-video-img">
         </div>        
       </div>
-      <div class="col-md-6 homepage-right">
+      <div class="col-md-6 homepage-right" data-aos="fade-up" data-aos-delay="100">
         <div class="homepage-video-right">
           <div class="hm-hello-content">
             <p class="home-hello-content">It is my honor to serve you as Faculty Association President for 2022-2023 academic year. I plan to continue to build a strong faculty voice regarding workplace issues and compensation. I hope to use our collective strength and leadership experience here at IITM to support you in making our workplace the kind you look forward to engaging in every day.
@@ -191,14 +200,14 @@
 <section class="Homepage-img-sec">
   <div class="container" style="max-width: 100%;">
     <div class="row" style="padding: 20px 0;">
-      <div class="col-md-4 hm-sec">
-        <img src="images/building_iitm.png">
+      <div class="col-md-4 hm-sec" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/images/building_iitm.png">
       </div>
-      <div class="col-md-4 hm-sec">
-        <img src="images/About IIT Madras -Publications 1.png">      
+      <div class="col-md-4 hm-sec" data-aos="fade-up" data-aos-delay="200">
+        <img src="assets/images/About IIT Madras -Publications 1.png">      
       </div>
-      <div class="col-md-4 hm-sec">
-        <img src="images/deer.png">      
+      <div class="col-md-4 hm-sec" data-aos="fade-up" data-aos-delay="300">
+        <img src="assets/images/deer.png">      
       </div>
     </div>
   </div>
@@ -232,7 +241,7 @@
 
   <div class="container" style="max-width: 1400px;">
     <div class="row" style="padding: 30px 0;">
-      <div class="col-md-12">
+      <div class="col-md-12" data-aos="fade-down" data-aos-delay="100">
         <div class="hm-contact-heading">
           <h3>Contact Us</h3>
         </div>
@@ -259,7 +268,7 @@
       <div class="row" style="padding: 30px 0px 30px 0px;">
         <div class="col-md-6">
           <div class="footer-left">
-            <img src="images/logo/logo-updated.png" class="footer_logo">
+            <img src="assets/images/logo/logo-updated.png" class="footer_logo">
           <h6>IIT Madras, Chennai – 600 036</h6>
           <h6>Office hours: 9:30 am – 5:30 pm, Monday to Friday</h6>          
           <h6>Phone: 044 2257 8874 / 044 2257 8379</h6>
@@ -304,14 +313,21 @@
     distance: '300px'
   });
 
-</script>
-  
+</script> 
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/main.js"></script>
 
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   </body>
 </html>

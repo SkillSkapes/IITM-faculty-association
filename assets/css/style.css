@@ -390,6 +390,9 @@ a {
   width: 38%;
 }
   /* Homepage */
+  #hm-hero .inner{
+    position: relative;
+  }
 
   #video-viewport {
     position: relative; 
