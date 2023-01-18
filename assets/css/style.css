@@ -387,7 +387,7 @@ a {
 /* custom - code */
 
 .main-logo{
-  width: 38%;
+  width: 100%;
 }
   /* Homepage */
   #hm-hero .inner{
@@ -414,7 +414,8 @@ a {
    overflow: hidden;
    background-color: rgba(0, 0, 0, 0.650); }
  
-    .fullsize-video-bg .inner { display: table; 
+    .fullsize-video-bg .inner { 
+    display: table; 
      width: 100%;
      vertical-align: middle;
      height: 100%; 
@@ -516,14 +517,14 @@ text-transform: uppercase;
   color: #124F88;
 }
 
-button:hover .button_top {
+.homepage-readmore-btn:hover .button_top {
   /* Pull the button upwards when hovered */
  -webkit-transform: translateY(-0.33em);
      -ms-transform: translateY(-0.33em);
          transform: translateY(-0.33em);
 }
 
-button:active .button_top {
+.homepage-readmore-btn:active .button_top {
   /* Push the button downwards when pressed */
  -webkit-transform: translateY(0);
      -ms-transform: translateY(0);
@@ -575,8 +576,75 @@ button:active .button_top {
   padding: 10px;
   color: #000;
   margin-left: 20px;
-
 }
+
+/* Executive - Committee */
+.EC-banner-hero {
+  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('/assets/images/Executive-committee/EC-banner.png');
+/*   background-image: url(https://source.unsplash.com/2600x1200?city); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 45vh;
+/*   background-color: #eee; */
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;  
+}
+.EC-contact-bg{
+  background: linear-gradient(90deg, #0A2640 16.67%, #124F88 100%);
+  display: grid;
+  place-items: center;
+}
+.EC-contact h4{
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  display: grid;
+}
+.EC-name-dept{
+  display: grid;
+  place-items: center;
+}
+.EC-members-name h4{
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(90deg, #0A2640 0%, #124F88 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.EC-members-name h5{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #124F88;
+  
+}
+.EC-members img{
+  width: 70%;
+  text-align: center;
+}
+.EC-members{
+  text-align: center;
+}
+.EC-members-designation{
+  padding: 10px 10px 0px 10px;
+}
+.EC-members-designation h4{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  color: #124F88;
+}
+.EC-box-shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
 
 
 
@@ -654,6 +722,13 @@ button:active .button_top {
 }
 /* custom media query */
 @media only screen and (max-width: 600px) {
+  .main-logo{
+    width: 55%;
+    text-align: right;
+  }
+  .toggle-button{
+    text-align: right;
+  }
   .homepage-video-headline{
     font-size: 20px;
   }
@@ -686,6 +761,22 @@ button:active .button_top {
   .hm-contact-content p{
     font-size: 15px;
   }
+  .EC-members-name{
+    text-align: center;
+  }
+  .EC-members-designation h4{
+    font-size: 18px;
+  }
+  .EC-members-name h5{
+    font-size: 17px;
+  }
+  .EC-contact h4{
+    font-size: 17px;
+  }
+  .EC-contact-bg{
+    padding: 15px 0;
+  }
+  
   
 
 
@@ -707,6 +798,18 @@ button:active .button_top {
     font-weight: 300;
   }
   
+
+}
+/* for macbook */
+@media only screen and (min-width: 1200px) {
+  .fullsize-video-bg .inner{
+    padding: 0px;
+    margin:0px 0px -370px 0px;
+    padding: 20px;
+  }
+  video{
+    width: auto;
+  }
 
 }
 
