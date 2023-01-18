@@ -580,7 +580,7 @@ text-transform: uppercase;
 
 /* Executive - Committee */
 .EC-banner-hero {
-  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('/assets/images/Executive-committee/EC-banner.png');
+  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('https://raw.githubusercontent.com/SkillSkapes/IITM-faculty-association/master/assets/images/Executive-committee/EC-banner.png');
 /*   background-image: url(https://source.unsplash.com/2600x1200?city); */
   background-position: center;
   background-size: cover;
