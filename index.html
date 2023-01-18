@@ -16,11 +16,31 @@
     
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     <title>IITM & Faculty Association</title>
   </head>
   <body>
-
+<!-- nav bar -->
 
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -32,7 +52,7 @@
       </div>
 
 
-      <div class="top-bar">
+      <!-- <div class="top-bar">
         <div class="container">
           <div class="row">
             <div class="col-12">
@@ -54,23 +74,26 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
 
-      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+      <header class="site-navbar js-sticky-header site-navbar-target" role="banner" > 
 
-        <div class="container">
+        <div class="container" style="max-width: 1200px;">
           <div class="row align-items-center position-relative">
 
 
             <div class="site-logo">
-              <a href="index.html" class="text-black"><span class="text-primary">Brand</a>
+             
+              <a href="index.html">
+                <img src="images/logo/logo-updated.png" class="main-logo">
+              </a>
             </div>
 
             <div class="col-12">
               <nav class="site-navigation text-right ml-auto " role="navigation">
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="#home-section" class="nav-link">Executive Committee</a></li>
+                  <li><a href="#services-section" class="nav-link">Executive Committee</a></li>
                   <li><a href="#services-section" class="nav-link">Representative Members</a></li>
 
 
@@ -92,8 +115,6 @@
                   </li> -->
 
                   <li><a href="#why-us-section" class="nav-link">Membership Form</a></li>
-
-                  <li><a href="#testimonials-section" class="nav-link">Grievances</a></li>
                   <li><a href="#blog-section" class="nav-link">On Campus Information</a></li>
                   <li><a href="#contact-section" class="nav-link">About IITM</a></li>
                 </ul>
@@ -101,18 +122,189 @@
 
             </div>
 
-            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3" style="color: #fff; font-size: 38px;"></span></a></div>
 
           </div>
         </div>
 
       </header>
+<!-- nav bar end  -->
+
 <!-- Video -section -->
+<section class="fullsize-video-bg">
+	<div class="inner">
+		<div>
+			<h1 class="homepage-video-headline">Welcome to IIT Madras</h1>
+      <p class="homepage-video-content">Your journey starts here in the 620-acre, biodiverse campus a space that enables you to shape your dreams, connect with the best, and soar to success.<br><br>
+        The Faculty Association facilitates your life on campus and beyond.
+		</div>
+	</div>
+	<div id="video-viewport">
+		<video width="1600" height="450" autoplay muted loop>
+			<source src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/faculty-association%2Fvideo%2Ffaculty-association-updated.mp4?alt=media&token=f5acee8d-b31d-4ed9-853d-2808d7b9cc2d" type="video/mp4" />
+			<source src="https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/faculty-association%2Fvideo%2Ffaculty-association-updated.mp4?alt=media&token=f5acee8d-b31d-4ed9-853d-2808d7b9cc2d" type="video/webm" />
+		</video>
+	</div>
+</section>
+<!-- video end -->
 
-
-
-    <div class="hero" style="background-image: url('images/hero_1.jpg');">
+<!-- main Page  -->
+<section class="faculty-home-header">
+  <div class="container">
+    <div class="row">
+      <h1 class="faculty-headline">Faculty Association</h1>
     </div>
+  </div>
+</section>
+
+<section class="faculty-association-content">
+  <div class="container">
+    <div class="row">
+      <h3 class="home-hello-heading">Hello, fellow faculty,</h3>
+    </div>
+    <div class="row">
+      <p class="home-hello-content">The purpose of FA is to provide a formal networking platform for faculty members to foster their personal and professional growth. The FA will serve as the voice to represent and advocate for its members, uphold academic freedom, fairness, transparency and equality for all members. FA will increase the awareness of issues specific to the faculty community.</p>
+    </div>
+    <div class="row" style="padding: 20px 0px 20px 0px;">
+      <div class="col-md-6" >
+        <div class="homepage-video-left">
+          <img src="images/NJVasa 1.png" class="homepage-video-img">
+        </div>        
+      </div>
+      <div class="col-md-6 homepage-right">
+        <div class="homepage-video-right">
+          <div class="hm-hello-content">
+            <p class="home-hello-content">It is my honor to serve you as Faculty Association President for 2022-2023 academic year. I plan to continue to build a strong faculty voice regarding workplace issues and compensation. I hope to use our collective strength and leadership experience here at IITM to support you in making our workplace the kind you look forward to engaging in every day.
+            </p>
+          </div>
+          
+          <div class="homepage-readmore">
+            <button class="homepage-readmore-btn"><a href="#" class="button_top">Read More</a></button>
+          </div> 
+        </div>
+               
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Homepage-img-sec">
+  <div class="container" style="max-width: 100%;">
+    <div class="row" style="padding: 20px 0;">
+      <div class="col-md-4 hm-sec">
+        <img src="images/building_iitm.png">
+      </div>
+      <div class="col-md-4 hm-sec">
+        <img src="images/About IIT Madras -Publications 1.png">      
+      </div>
+      <div class="col-md-4 hm-sec">
+        <img src="images/deer.png">      
+      </div>
+    </div>
+  </div>
+  
+  <div class="container" style="max-width: 1400px;">
+    <div class="row hm_mission_vision">
+      <div class="col-md-6">
+        <div class="hm-mission">
+          <h3>Mission</h3>
+          <ul>
+            <li>Advance and safeguard the rights and welfare of IITM faculty members</li>
+            <li>Represent the personal & professional interests of all faculty</li>
+            <li>Uphold academic freedom, fairness, transparency, and equality for all members</li>
+            <li>Act as a negotiating unit to regulate relations between faculty and the institute</li>
+            <li>Increase awareness to ensure the protection of individual rights</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="hm-mission">
+          <h3>Vision</h3>
+          <ul>
+            <li>To become the voice of faculty, a source of information, and function as support group for faculty members</li>
+            <li>To advance the cause and rights of faculty members with the institute administration and with the MoE (through proper channels)</li>
+            <li>To interact and seek consensus among FA members of other IITs in matters related to faculty</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" style="max-width: 1400px;">
+    <div class="row" style="padding: 30px 0;">
+      <div class="col-md-12">
+        <div class="hm-contact-heading">
+          <h3>Contact Us</h3>
+        </div>
+        <div class="hm-contact-content">
+          <p>Do you have a suggestion, question, concern or praise to share with the Faculty Association? If yes, please contact us (from your official email) at <a href="mailto:faoffice@smail.iitm.ac.in">faoffice@smail.iitm.ac.in</a>  to receive follow-up from the FA leadership team.</p>
+        </div>
+
+      </div>      
+    </div>
+  </div>
+    
+  
+  
+
+</section>
+
+<!-- main page end -->
+
+
+<!-- footer starts -->
+<section class="footer_bg">
+  <footer>
+    <div class="container">
+      <div class="row" style="padding: 30px 0px 30px 0px;">
+        <div class="col-md-6">
+          <div class="footer-left">
+            <img src="images/logo/logo-updated.png" class="footer_logo">
+          <h6>IIT Madras, Chennai – 600 036</h6>
+          <h6>Office hours: 9:30 am – 5:30 pm, Monday to Friday</h6>          
+          <h6>Phone: 044 2257 8874 / 044 2257 8379</h6>
+          <h6>Email: <a href ="mailto:faoffice@smail.iitm.ac.in" class="footer_a">faoffice@smail.iitm.ac.in</a> / <a href="mailto:faoffice@iitm.ac.in" class="footer_a">faoffice@iitm.ac.in</a></h6>
+          </div>          
+        </div>
+        <div class="col-md-6">
+          <div class="footer_social">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+          </div>
+          <div class="skillskapes">
+            <p>Designed & Developed by<br>
+              <a href="https://www.skillskapes.com/"><span style="font-weight:bold;">SKILLSKAPES</span></a><br>
+              IITM-RP, <a href="mailto:getinfo@skillskapes.com">getinfo@skillskapes.com</a></p>
+
+          </div>          
+        </div> 
+      </div> 
+      <div class="row">
+        <div class="col-md-12">
+        <div class="copyrights">
+          <h6>Copyright © 2022 Faculty Association , IIT Madras. All rights reserved.</h6>
+        </div>
+      </div>
+      </div> 
+    </div>
+  </footer>
+</section>
+
+
+<!-- footer ends -->
+
+<script>
+  window.sr = ScrollReveal();
+  sr.Reveal('.homepage-video-right',{
+    duration: 2000,
+    origin:'top',
+    distance: '300px'
+  });
+
+</script>
   
 
 
