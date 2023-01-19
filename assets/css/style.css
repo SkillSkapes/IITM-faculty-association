@@ -59,6 +59,8 @@ a {
   .site-navbar .site-logo {
     position: absolute;
     width: auto;
+    margin: -10px;
+    margin-top: -5px;
   }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
@@ -617,7 +619,7 @@ text-transform: uppercase;
   background-clip: text;
   text-fill-color: transparent;
 }
-.EC-members-name h5{
+.EC-members-name h5{eo-img
   font-size: 18px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
