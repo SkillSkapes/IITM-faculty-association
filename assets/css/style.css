@@ -699,7 +699,7 @@ text-transform: uppercase;
   padding: 5px;
 }
 .footer-left h5{
-  font-size: 15px;
+  font-size: 15px !important;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
   color: #fff;
