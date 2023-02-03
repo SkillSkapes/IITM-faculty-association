@@ -687,7 +687,7 @@ text-transform: uppercase;
 /* representative */
 
 .rep-banner-hero{
-  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('/assets/images/representative/reprsentative.png');
+  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('./assets/images/representative/reprsentative.png');
   /*   background-image: url(https://source.unsplash.com/2600x1200?city); */
     background-position: center;
     background-size: cover;
