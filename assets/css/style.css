@@ -687,7 +687,7 @@ text-transform: uppercase;
 /* representative */
 
 .rep-banner-hero{
-  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('./assets/images/representative/reprsentative.png');
+  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/faculty-association%2Fimages%2Freprsentative.png?alt=media&token=17f4b89d-b105-4f59-b0e5-0ce1f01543cb');
   /*   background-image: url(https://source.unsplash.com/2600x1200?city); */
     background-position: center;
     background-size: cover;
