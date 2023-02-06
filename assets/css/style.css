@@ -1,7 +1,9 @@
 body {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
-  position: relative; }
+  position: relative;
+  overflow-x: hidden;
+ }
   body:before {
     content: "";
     position: absolute;
@@ -359,7 +361,7 @@ a {
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar {
     background: linear-gradient(90deg, #0A2640 36.46%, #124F88 100%);
-    max-width: 1600px !important;
+    max-width: 1920px !important;
   }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #fff; }
@@ -582,7 +584,7 @@ text-transform: uppercase;
 
 /* Executive - Committee */
 .EC-banner-hero {
-  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('https://firebasestorage.googleapis.com/v0/b/react-projects-83889.appspot.com/o/faculty-association%2Fimages%2FEC_banner.png?alt=media&token=72ad9b65-3883-4e3e-9915-1871647626b4');
+  background: linear-gradient(#0006, rgba(0, 0, 0, 0.26)), url('../images/Executive-committee/EC_banner.png');
 /*   background-image: url(https://source.unsplash.com/2600x1200?city); */
   background-position: center;
   background-size: cover;
@@ -1050,8 +1052,127 @@ figure {
     }
     
 
+/* about-iitm */
 
 
+.iitm-hdng{
+  font-family: 'Lato', sans-serif;
+ font-weight: 700;
+ background: linear-gradient(90deg, #0A2640 0%, #124F88 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ padding: 10px;
+}
+
+.iitm-cont{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  text-align: justify;
+  padding: 10px;
+
+}
+.iitm-legacy{
+ margin-left: auto !important;
+ margin-right: auto !important;
+}
+.img-legcy img{
+  width: 100%;
+}
+.abt-ranking{
+  text-align: center;
+
+}
+.rank-bg{
+  background: linear-gradient(360deg, #124F88 -42.07%, rgba(217, 217, 217, 0) 83.54%);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.imag-cont{
+  color: #000;
+  font-weight: 400;
+  font-family: 'Lato',sans-serif;
+  font-size: 13px;
+}
+.img-legcy{
+  vertical-align: middle;
+}
+
+/* carousel */
+
+
+ .carousel-item{
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  float:none; 
+  transition: 0s !important;
+ }
+ .carousel-inner {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 80% !important;
+  width: 100% !important;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-indicators{
+  display: none !important;
+}
+.carousel-control-next, .carousel-control-prev{
+  display: none !important;
+}
+
+.counter-sec {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.common__heading {
+  font-size: 35px !important;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  margin: 0 0 33px;
+  padding-left: 20px;
+  position: relative;
+}
+.common__heading::after {
+  background: #c00404;
+  content: "";
+  width: 4px;
+  position: absolute;
+  top: 2px;
+  bottom: 6px;
+  left: 0;
+  margin: auto;
+}
+.card__userdetails h3{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+}
+.font__fontrols__style{
+  font-size: 16px;
+  color: #fff;
+}
 
 
 /* footer */
@@ -1081,7 +1202,7 @@ figure {
 }
 .footer_social{
   font-size: 40px;
-  text-align: center;
+  text-align: right;
 }
 .footer_social a{
   padding-left: 10px;
@@ -1108,7 +1229,7 @@ figure {
   border-radius: 20px;
   width: 60%;
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 .skillskapes p{
   color: #000;
@@ -1229,6 +1350,10 @@ figure {
   .button{
     padding-left: 40px;
   }
+  /* about -IITM */
+  .card__tablecell{
+    text-align: center;
+  }
 
   /* footer */
   .footer-left h6{
@@ -1238,6 +1363,10 @@ figure {
   .footer_social{
     font-size: 20px;
     text-align: center;
+  }
+  .skillskapes{
+    margin-left: auto;
+    margin-right: auto;
   }
   .skillskapes p{
     font-size: 14px;

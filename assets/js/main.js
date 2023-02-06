@@ -97,3 +97,10 @@ $(function() {
       mirror: false
     })
   });
+
+
+//   slider
+
+$('.carousel').carousel({
+	interval: 3000
+  })
