@@ -361,7 +361,7 @@ a {
     transition: .3s all ease; }
   .sticky-wrapper .site-navbar {
     background: linear-gradient(90deg, #0A2640 36.46%, #124F88 100%);
-    max-width: 1920px !important;
+    max-width: 100% !important;
   }
     .sticky-wrapper .site-navbar .site-logo a {
       color: #fff; }
@@ -1109,15 +1109,12 @@ figure {
   display: none;
   float: left;
   width: 100%;
-  margin-right: -100%;
+  /* margin-right: -100%; */
   -webkit-backface-visibility: hidden !important;
   backface-visibility: hidden !important;
   float:none; 
   transition: 0s !important;
  }
- .carousel-inner {
-  height: 500px;
-}
 
 .carousel-item img {
   height: 80% !important;
@@ -1145,6 +1142,7 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .common__heading {
   font-size: 35px !important;
@@ -1353,6 +1351,12 @@ figure {
   /* about -IITM */
   .card__tablecell{
     text-align: center;
+  }
+  .abt-ranking{
+    padding: 10px 0px 10px 0px;
+  }
+  .img-legcy{
+    padding: 10px 0px 10px 0px;
   }
 
   /* footer */
