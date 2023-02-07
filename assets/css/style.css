@@ -409,7 +409,7 @@ a {
    }
  video {
     display: block; 
-    width: 100%; 
+    width: 100% !important; 
     height:100%; 
    }
  
@@ -1166,11 +1166,29 @@ figure {
   font-size: 30px;
   color: #fff;
   font-weight: 900;
+  
+  
 }
+.card__table{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}  
+
 .font__fontrols__style{
   font-size: 16px;
   color: #fff;
+  font-weight: 400;
+  
 }
+.logo{
+  display: flex;
+  align-items: center;
+}
+.card__counts{
+  margin-top: 40px;
+}
+
 
 
 /* footer */
@@ -1358,7 +1376,14 @@ figure {
   .img-legcy{
     padding: 10px 0px 10px 0px;
   }
+.card__table{
+  /* justify-content: center; */
+  padding-left: 50px;
 
+}
+.card__userdetails h3{
+ text-align: left;
+}
   /* footer */
   .footer-left h6{
     font-size: 15px;
